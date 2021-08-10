@@ -1,1 +1,0 @@
- D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/Qt5Widgetsd.lib D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/Qt5Guid.lib D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/Qt5Cored.lib -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

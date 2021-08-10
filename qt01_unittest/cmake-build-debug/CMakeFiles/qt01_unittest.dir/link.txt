@@ -1,3 +1,0 @@
-"D:\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\qt01_unittest.dir/objects.a
-D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\qt01_unittest.dir/objects.a @CMakeFiles\qt01_unittest.dir\objects1.rsp
-D:\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\qt01_unittest.dir/objects.a -Wl,--no-whole-archive -o qt01_unittest.exe -Wl,--out-implib,libqt01_unittest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\qt01_unittest.dir\linklibs.rsp
