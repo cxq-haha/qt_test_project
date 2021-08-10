@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="testqt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Qt\;CMake Files\Qt\Qt5.14.2\;CMake Files\Qt\Qt5.14.2\5.14.2\;CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\;CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\;CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\;CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5\;CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\;CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\;CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\;CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestGui">
+				<Option output="E:/qt_test_project/testqt/cmake-build-debug/TestGui.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_TESTLIB_LIB"/>
+					<Add option="-DQT_TESTCASE_BUILDDIR=&quot;E:/qt_test_project/testqt/cmake-build-debug&quot;"/>
+					<Add directory="E:/qt_test_project/testqt/cmake-build-debug/TestGui_autogen/include"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtTest"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 TestGui"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestGui/fast">
+				<Option output="E:/qt_test_project/testqt/cmake-build-debug/TestGui.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_TESTLIB_LIB"/>
+					<Add option="-DQT_TESTCASE_BUILDDIR=&quot;E:/qt_test_project/testqt/cmake-build-debug&quot;"/>
+					<Add directory="E:/qt_test_project/testqt/cmake-build-debug/TestGui_autogen/include"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtTest"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 TestGui/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testqt">
+				<Option output="E:/qt_test_project/testqt/cmake-build-debug/testqt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="E:/qt_test_project/testqt/cmake-build-debug/testqt_autogen/include"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 testqt"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testqt/fast">
+				<Option output="E:/qt_test_project/testqt/cmake-build-debug/testqt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="E:/qt_test_project/testqt/cmake-build-debug/testqt_autogen/include"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtCore"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/./mkspecs/win32-msvc"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtGui"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/Qt5.14.2/5.14.2/msvc2017_64/include/QtWidgets"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="D:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 testqt/fast"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 test"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestGui_autogen">
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 TestGui_autogen"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testqt_autogen">
+				<Option working_dir="E:/qt_test_project/testqt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 testqt_autogen"/>
+					<CompileFile command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f E:\qt_test_project\testqt\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/qt_test_project/testqt/TestGui.cpp">
+			<Option target="TestGui"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/TestGui.h">
+			<Option target="TestGui"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/cmake-build-debug/TestGui_autogen/mocs_compilation.cpp">
+			<Option target="TestGui"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/cmake-build-debug/testqt_autogen/mocs_compilation.cpp">
+			<Option target="testqt"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/main.cpp">
+			<Option target="testqt"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Test/Qt5TestConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Test/Qt5TestConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="E:/qt_test_project/testqt/Qt/Qt5.14.2/5.14.2/msvc2017_64/lib/cmake/Qt5Test/Qt5TestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\Qt5.14.2\5.14.2\msvc2017_64\lib\cmake\Qt5Test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

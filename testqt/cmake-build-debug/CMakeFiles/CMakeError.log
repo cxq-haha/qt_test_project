@@ -1,0 +1,28 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: E:/qt_test_project/testqt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_4ec0b\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_4ec0b.dir\build.make /nologo -L                  CMakeFiles\cmTC_4ec0b.dir\build
+Building C object CMakeFiles/cmTC_4ec0b.dir/CMakeCCompilerABI.c.obj
+	"D:\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_4ec0b.dir\CMakeCCompilerABI.c.obj.d --working-dir=E:\qt_test_project\testqt\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- D:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe @C:\Users\CXQ\AppData\Local\Temp\nmF56B.tmp
+NMAKE : fatal error U1077: “"D:\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe"”: 返回代码“0xc0000409”
+Stop.
+NMAKE : fatal error U1077: “"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\nmake.exe"”: 返回代码“0x2”
+Stop.
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: E:/qt_test_project/testqt/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_47ea1\fast && 	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\nmake.exe"  -f CMakeFiles\cmTC_47ea1.dir\build.make /nologo -L                  CMakeFiles\cmTC_47ea1.dir\build
+Building CXX object CMakeFiles/cmTC_47ea1.dir/CMakeCXXCompilerABI.cpp.obj
+	"D:\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_47ea1.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=E:\qt_test_project\testqt\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="" -- D:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx64\x64\cl.exe @C:\Users\CXQ\AppData\Local\Temp\nmFA2E.tmp
+NMAKE : fatal error U1077: “"D:\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe"”: 返回代码“0xc0000409”
+Stop.
+NMAKE : fatal error U1077: “"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\nmake.exe"”: 返回代码“0x2”
+Stop.
+
+
+
+
